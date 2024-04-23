@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meal Selection Page</title>
+    <style>
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 10px;
+        }
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+<body>
+    <h2>Meal Selection</h2>
+    <div class="clearfix">
+        <div class="column">
+            <h3>Breakfast</h3>
+            <select id="breakfast" multiple>
+                <option value="item1">Oatmeal with Nut Butter and Fruit</option>
+                <option value="item2">Greek Yogurt Parfait</option>
+                <option value="item3">Scrambled Eggs with Whole Grain Toast</option>
+                <option value="item4">Smoothie Bowl with Granola and Berries</option>
+                <option value="item5">Avocado Toast with Poached Egg</option>
+                <option value="item6">Whole Wheat Pancakes with Maple Syrup</option>
+                <option value="item7">Breakfast Burrito with Eggs, Vegetables, and Cheese</option>
+                <option value="item8">Chia Seed Pudding with Fresh Fruit</option>
+                <option value="item9">Breakfast Quiche with Spinach and Feta</option>
+                <option value="item10">Breakfast Tacos with Black Beans and Salsa</option>
+                <option value="item11">Overnight Oats with Almond Milk and Chia Seeds</option>
+                <option value="item12">Veggie Omelette with Toast</option>
+                <option value="item13">Banana Walnut Muffins</option>
+                <option value="item14">Protein Waffles with Greek Yogurt and Honey</option>
+                <option value="item15">Cottage Cheese and Pineapple</option>
+                <option value="item16">Cottage Cheese and Pineapple</option>
+                <option value="item17">Breakfast Wrap with Turkey Bacon and Avocado</option>
+                <option value="item18">Smoked Salmon Bagel with Cream Cheese and Capers</option>
+                <option value="item19">French Toast with Fresh Berries</option>
+                <option value="item20">Shakshuka (Poached Eggs in Tomato Sauce)</option>
+                <option value="item21">Breakfast Hash with Sweet Potatoes and Sausage</option>
+                <option value="item22">Acai Bowl with Granola and Mixed Berries</option>
+                <option value="item23">Breakfast Sausage and Egg Sandwich</option>
+                <option value="item24">Spinach and Mushroom Breakfast Frittata</option>
+                <option value="item25">Quinoa Breakfast Bowl with Almond Milk and Berries</option>
+                <option value="item26">Blueberry Banana Bread</option>
+                <option value="item27">Green Smoothie with Spinach, Mango, and Banana</option>
+                <option value="item28">Breakfast Pizza with Eggs and Bacon</option>
+                <option value="item29">Apple Cinnamon Overnight Oats</option>
+                <option value="item30">Breakfast Biscuits with Sausage Gravy</option>
+                <option value="item31">Peanut Butter Banana Overnight Oats</option>
+                <option value="item32">Breakfast Muffin Sandwich with Egg and Cheese</option>
+                <option value="item33">Breakfast Polenta with Roasted Vegetables and Poached Egg</option>
+                <option value="item34">Greek Yogurt with Honey and Granola</option>
+                <option value="item35">Breakfast Croissant with Ham and Swiss Cheese</option>
+                <option value="item36">Huevos Rancheros with Black Beans and Avocado</option>
+                <option value="item37">Veggie Breakfast Sausage Patties with Scrambled Eggs</option>
+                <option value="item38">Breakfast Bruschetta with Tomatoes and Basil</option>
+                <option value="item39">Strawberry Banana Smoothie Bowl</option>
+                <option value="item40">Baked Oatmeal with Apples and Cinnamon</option>
+                <option value="item41">Breakfast Rice Bowl with Fried Egg and Kimchi</option>
+                <option value="item42">Veggie Breakfast Burrito with Tofu Scramble</option>
+                <option value="item43">Breakfast Pizza with Spinach, Feta, and Sun-Dried Tomatoes</option>
+                <option value="item44">Pumpkin Spice Pancakes with Maple Syrup</option>
+                <option value="item45">Quiche Lorraine with Bacon and Gruyere Cheese</option>
+                <option value="item46">Breakfast Sushi with Smoked Salmon and Avocado</option>
+                <option value="item47">Greek Yogurt Parfait with Mango and Coconut Flakes</option>
+                <option value="item48">Breakfast Tostadas with Refried Beans and Fried Egg</option>
+                <option value="item49">Berry Smoothie with Spinach and Almond Milk</option>
+                <option value="item50">Breakfast Stuffed Peppers with Eggs and Cheese</option>
+                
+            </select>
+        </div>
+        <div class="column">
+            <h3>Lunch</h3>
+            <select id="lunch" multiple>
+                <option value="item1">Chicken Caesar Salad </option>
+                <option value="item2">Veggie and Hummus Wrap</option>
+                <option value="item3">Grilled Chicken Sandwich with Avocado</option>
+                <option value="item4">Quinoa Salad with Black Beans and Corn</option>
+                <option value="item5">Turkey and Cheese Panini</option>
+                <option value="item6">Lentil Soup with Whole Grain Bread</option>
+                <option value="item7">Tuna Salad Lettuce Wraps</option>
+                <option value="item8">Beef and Broccoli Stir-Fry with Brown Rice</option>
+                <option value="item9">Caprese Salad with Balsamic Glaze</option>
+                <option value="item10">Shrimp Tacos with Mango Salsa</option>
+                <option value="item11">Roast Beef and Cheddar Sandwich on Whole Wheat Bread</option>
+                <option value="item12">Pasta Primavera with Mixed Vegetables</option>
+                <option value="item13">Egg Salad Croissant Sandwich</option>
+                <option value="item14">Vegetarian Chili with Cornbread</option>
+                <option value="item15">Sushi Roll Combo with Miso Soup</option>
+                <option value="item16">Falafel Pita with Tzatziki Sauce</option>
+                <option value="item17">Chicken and Vegetable Curry with Basmati Rice</option>
+                <option value="item18">Cobb Salad with Grilled Chicken</option>
+                <option value="item19">Veggie Burger with Sweet Potato Fries</option>
+                <option value="item20">Greek Salad with Grilled Salmon</option>
+                <option value="item21">Chicken Fajita Bowl with Guacamole</option>
+                <option value="item22">Spinach and Feta Stuffed Chicken Breast</option>
+                <option value="item23">Avocado Toast with Poached Egg</option>
+                <option value="item24">BBQ Pulled Pork Sandwich with Coleslaw</option>
+                <option value="item25">Mushroom and Swiss Cheeseburger on Whole Grain Bun</option>
+                <option value="item26">Thai Peanut Noodles with Tofu</option>
+                <option value="item27">Margherita Pizza with Side Salad</option>
+                <option value="item28">Teriyaki Salmon Bowl with Quinoa</option>
+                <option value="item29">Pesto Pasta with Cherry Tomatoes and Mozzarella</option>
+                <option value="item30">Chicken Shawarma Wrap with Tabouleh</option>
+                <option value="item31">Veggie and Bean Burrito Bowl</option>
+                <option value="item32">Caesar Salad with Grilled Shrimp</option>
+                <option value="item33">Turkey and Cranberry Wrap</option>
+                <option value="item34">Beef and Vegetable Kabobs with Couscous</option>
+                <option value="item35">Ratatouille with Crusty Bread</option>
+                <option value="item36">BLT Salad with Avocado Dressing</option>
+                <option value="item37">Chicken Parmesan with Whole Wheat Spaghetti</option>
+                <option value="item38">Tofu Stir-Fry with Noodles</option>
+                <option value="item39">Hawaiian Poke Bowl with Rice and Seaweed Salad</option>
+                <option value="item40">Greek Gyro with Tzatziki Sauce</option>
+                <option value="item41">Smoked Salmon Bagel with Cream Cheese</option>
+                <option value="item42">Portobello Mushroom Burger with Arugula and Goat Cheese</option>
+                <option value="item43">Mexican Street Corn Salad with Grilled Chicken</option>
+                <option value="item44">Chicken Caesar Wrap</option>
+                <option value="item45">Falafel Salad with Tahini Dressing</option>
+                <option value="item46">Veggie and Quinoa Stuffed Peppers</option>
+                <option value="item47">Turkey and Cranberry Panini</option>
+                <option value="item48">Beef and Vegetable Soup with Crusty Bread</option>
+                <option value="item49">Mediterranean Mezze Platter with Hummus, Olives, and Pita</option>
+                <option value="item50">Southwestern Chicken Salad with Avocado Dressing</option>
+               
+            </select>
+        </div>
+        <div class="column">
+            <h3>Dinner</h3>
+            <select id="dinner" multiple>
+                <option value="item1">Grilled Salmon with Quinoa and Steamed Vegetables
+                </option>
+                <option value="item2">Beef Stir-Fry with Brown Rice and Broccoli</option>
+                <option value="item3">Baked Chicken Breast with Sweet Potato Mash and Green Beans</option>
+                <option value="item4">Spaghetti Carbonara with Whole Wheat Pasta</option>
+                <option value="item5">Lentil and Vegetable Curry with Basmati Rice</option>
+                <option value="item6">Turkey Meatballs with Marinara Sauce and Whole Wheat Spaghetti</option>
+                <option value="item7">Stuffed Bell Peppers with Ground Beef and Rice</option>
+                <option value="item8">Tofu and Vegetable Stir-Fry with Quinoa</option>
+                <option value="item9">Baked Cod with Roasted Potatoes and Asparagus</option>
+                <option value="item10">Chicken and Vegetable Skewers with Couscous</option>
+                <option value="item11">Shrimp and Vegetable Stir-Fry with Brown Rice</option>
+                <option value="item12">Beef Chili with Kidney Beans and Cornbread
+                </option>
+                <option value="item13">Baked Pork Chops with Applesauce and Steamed Carrots
+                </option>
+                <option value="item14">Eggplant Parmesan with Whole Wheat Pasta
+                </option>
+                <option value="item15">Chicken Enchiladas with Brown Rice and Black Beans
+                </option>
+                <option value="item16">Grilled Steak with Baked Sweet Potato and Brussels Sprouts
+                </option>
+                <option value="item17">Vegetarian Lasagna with Spinach and Ricotta
+                </option>
+                <option value="item18">Turkey Burger with Sweet Potato Fries
+                </option>
+                <option value="item19">Baked Ziti with Ground Turkey and Marinara Sauce
+                </option>
+                <option value="item20">Teriyaki Tofu with Stir-Fried Vegetables and Rice
+                </option>
+                <option value="item21">Roast Beef with Mashed Potatoes and Green Peas
+                </option>
+                <option value="item22">Lemon Herb Grilled Chicken with Quinoa Salad
+                </option>
+                <option value="item23">Fish Tacos with Mango Salsa and Black Beans
+                </option>
+                <option value="item24">Vegetable and Chickpea Tagine with Couscous
+                </option>
+                <option value="item25">Chicken Caesar Salad with Whole Wheat Croutons
+                </option>
+                <option value="item26">Beef and Vegetable Kabobs with Brown Rice
+                </option>
+                <option value="item27">Baked Halibut with Roasted Vegetables and Wild Rice
+                </option>
+                <option value="item28">Mushroom and Spinach Risotto
+                </option>
+                <option value="item29">Turkey and Vegetable Soup with Whole Grain Bread
+                </option>
+                <option value="item30">Tofu and Broccoli Stir-Fry with Udon Noodles
+                </option>
+                <option value="item31">Baked Chicken Parmesan with Spaghetti Squash
+                </option>
+                <option value="item32">Beef and Bean Burritos with Spanish Rice
+                </option>
+                <option value="item33">Lemon Garlic Shrimp Pasta with Whole Wheat Linguine
+                </option>
+                <option value="item34">Veggie Burger with Avocado and Sweet Potato Wedges
+                </option>
+                <option value="item35">Shepherd's Pie with Ground Lamb and Mixed Vegetables
+                </option>
+                <option value="item36">Baked Chicken Thighs with Quinoa Pilaf and Steamed Broccoli
+                </option>
+                <option value="item37">Vegetable Paella with Saffron Rice
+                </option>
+                <option value="item38">Turkey and Cranberry Stuffed Acorn Squash
+                </option>
+                <option value="item39">Egg Fried Rice with Mixed Vegetables and Tofu
+                </option>
+                <option value="item40">BBQ Pulled Pork Sandwiches with Coleslaw
+                </option>
+                <option value="item41">Baked Teriyaki Salmon with Brown Rice and Stir-Fried Vegetables
+                </option>
+                <option value="item42">Lentil Soup with Whole Grain Bread
+                </option>
+                <option value="item43">Grilled Portobello Mushrooms with Polenta and Roasted Vegetables
+                </option>
+                <option value="item44">Chicken and Vegetable Stir-Fry with Lo Mein Noodles
+                </option>
+                <option value="item45">Beef and Barley Stew with Crusty Bread
+                </option>
+                <option value="item46">Baked Cod with Lemon Butter Sauce and Quinoa Pilaf
+                </option>
+                <option value="item47">Vegetable and Bean Chili with Cornbread Muffins
+                </option>
+                <option value="item48">Chicken Alfredo with Whole Wheat Fettuccine
+                </option>
+                <option value="item49">Baked Tofu with Maple Glaze and Roasted Brussels Sprouts
+                </option>
+                <option value="item50">Beef and Broccoli with Brown Rice</option>
+                
+                
+            </select>
+        </div>
+    </div>
+    <button onclick="validateSelection()">Submit</button>
+
+    <script>
+        function validateSelection() {
+            var breakfastSelected = document.getElementById("breakfast").selectedOptions.length;
+            var lunchSelected = document.getElementById("lunch").selectedOptions.length;
+            var dinnerSelected = document.getElementById("dinner").selectedOptions.length;
+
+            if (breakfastSelected >= 6 && lunchSelected >= 6 && dinnerSelected >= 6) {
+                // At least 6 items are selected from each column
+                // Proceed with form submission or other actions
+                alert("Selection is valid. Proceed with form submission.");
+            } else {
+                // Not enough items selected from each column
+                alert("Please select at least 6 items from each column.");
+            }
+        }
+    </script>
+</body>
+</html>
